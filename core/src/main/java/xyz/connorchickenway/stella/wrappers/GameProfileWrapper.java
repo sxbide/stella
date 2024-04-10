@@ -43,7 +43,7 @@ public class GameProfileWrapper {
     }
 
     public void setSkin(Skin skin) {
-        setSkin(skin.getValue(), skin.getValue());
+        setSkin(skin.getValue(), skin.getSignature());
     }
 
     public void setSkin(String value, String signature) {
